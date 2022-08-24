@@ -1,3 +1,49 @@
+h2 {
+    display: flex;
+}
+.skills {
+    display: flex;
+}
+
 .skill-title {
-    display: inline-block;
+    text-align: center;
+}
+
+.icon {
+    font-size: "3rem";
+    margin: 0 0 6%;
+}
+
+.skills-container {
+    margin: 2rem 0 8rem 0;
+    display: grid;
+    justify-content: space-evenly;
+    align-items: stretch;
+    grid-template-columns: repeat(4, 70px);
+    grid-template-rows: repeat(auto-fit, auto-fit);
+    gap: 2.5rem;
+}
+
+@media screen and (max-width: 846px) {
+    .skills-container {
+        margin: 2rem 0 8rem 0;
+    display: grid;
+    justify-content: space-evenly;
+    align-items: stretch;
+    grid-template-columns: repeat(3, 70px);
+    grid-template-rows: repeat(auto-fit, auto-fit);
+    gap: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .skills-container {
+        margin: 2rem 0 8rem 0;
+    display: grid;
+    justify-content: space-evenly;
+    align-items: stretch;
+    grid-template-columns: repeat(2, 70px);
+    grid-template-rows: repeat(auto-fit, auto-fit);
+    gap: 2.5rem;
+    }
 }

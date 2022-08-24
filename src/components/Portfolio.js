@@ -5,8 +5,8 @@ import '../styles/Portfolio.css';
 
 function Portfolio() {
   return (
-    <div class="portfolio">
-
+    <div className="portfolio">
+      
     </div>
   );
 }

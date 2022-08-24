@@ -1,31 +1,30 @@
 import {FaJava, FaPython, FaCss3Alt, FaHtml5, FaRProject, FaJs, 
-    FaReact, FaNodeJs, FaNpm, FaGitAlt} from "react-icons/fa";
+    FaReact, FaNode, FaGitAlt, FaBootstrap} from "react-icons/fa";
+import {SiJquery, SiMongodb} from "react-icons/si"
 import React from 'react';
 import '../styles/Skills.css';
+import { IconContext } from "react-icons/lib";
 
 function Skills() {
     return (
         <div>
-            <h1>Skills</h1>
-            <div>
-                <h3 class="skill-title">FrontEnd: </h3>
-                <FaHtml5 />
-                <FaCss3Alt />
-                <FaJs />
-                <FaReact />
+            <h1 className="skill-title">Skills</h1>
+            <IconContext.Provider value={{color:"purple", size: "5rem"}}>
+            <div className="skills-container">
+                    <FaHtml5 className="icon"/>
+                    <FaCss3Alt className="icon"/>
+                    <FaJs className="icon"/>
+                    <FaReact className="icon"/>
+                    <FaJava className="icon"/>
+                    <FaNode className="icon"/>
+                    <FaPython className="icon"/>
+                    <FaRProject className="icon"/>
+                    <FaGitAlt className="icon"/>
+                    <FaBootstrap className="icon"/>
+                    <SiJquery className="icon"/>
+                    <SiMongodb className="icon"/>
             </div>
-            <div>
-                <h3 class="skill-title">BackEnd: </h3>
-                <FaJava />
-                <FaNodeJs />
-                <FaNpm />
-            </div>
-            <div>
-                <h3 class="skill-title">Data Science or other skills: </h3>
-                <FaPython />
-                <FaRProject />
-                <FaGitAlt />
-            </div>
+            </IconContext.Provider>
         </div>
     );
   }

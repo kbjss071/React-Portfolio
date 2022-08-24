@@ -4,16 +4,22 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
-function NavBar() {
+function NavBar(props) {
+  const {currentTab, setCurrentTab} = props;
+  const navbarStyle = {justifyContent: "right", display: "inline-block"}
+  const brandStyle = {fontSize: "3rem", color:"white", display:"inline-block"}
   return (
     <Navbar>
       <Container>
-        <Nav>
-            <Nav.Link href="#about">About</Nav.Link>
-            <Nav.Link href="#portfolio">Portfolio</Nav.Link>
-            <Nav.Link href="#skills">Skills</Nav.Link>
-            <Nav.Link href="#contact">Contact</Nav.Link>
-        </Nav>
+        <Navbar.Brand style={brandStyle}>JK</Navbar.Brand>
+        <Navbar.Collapse style={navbarStyle}>
+          <Nav>
+              <Nav.Link ><span onClick={()=> setCurrentTab("about")}>About</span></Nav.Link>
+              <Nav.Link ><span onClick={()=> setCurrentTab("portfolio")}>Portfolio</span></Nav.Link>
+              <Nav.Link ><span onClick={()=> setCurrentTab("contact")}>Contact</span></Nav.Link>
+              <Nav.Link ><span onClick={()=> setCurrentTab("resume")}>Resume</span></Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
       </Container>
     </Navbar>
   );

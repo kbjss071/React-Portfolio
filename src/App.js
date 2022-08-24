@@ -1,20 +1,47 @@
-// import './App.css';
-import Navbar from "./components/Navbar"
+import './App.css';
 import About from "./components/About"
 import Portfolio from "./components/Portfolio"
 import Skills from "./components/Skills"
 import Contact from "./components/Contact"
+import React, { useState } from 'react';
+import Header from './components/Header';
+import Resume from './components/Resume'
+import Footer from './components/Footer'
 
 function App() {
+  const [currentTab, setCurrentTab] = useState("about");
+
+  const renderTab = () => {
+    switch (currentTab) {
+      case "about":
+        return (
+          <div>
+            <About />
+            <Skills />
+          </div>
+        )
+      case "portfolio":
+        return <Portfolio/>
+      case "contact":
+        return <Contact />
+      case "resume":
+        return <Resume />
+      default:
+        return null;
+    }
+  }
+
   return (
     <div>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <Navbar />
+      <div>
+        <Header currentTab={currentTab} setCurrentTab={setCurrentTab} />
       </div>
-      <About />
-      {/* <Portfolio /> */}
-      <Skills />
-      {/* <Contact /> */}
+      <div>
+        <main>{renderTab()}</main>
+      </div>
+      <div>
+        <Footer />
+      </div>
     </div>
   );
 }

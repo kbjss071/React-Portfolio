@@ -1,0 +1,9 @@
+.list-style {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container h1 {
+    text-align: center;
+}

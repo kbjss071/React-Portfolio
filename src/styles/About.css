@@ -1,0 +1,38 @@
+.about {
+    display: flex;
+}
+
+.profile {
+    border-radius: 50%;
+    display: inline-block;
+    margin: 3rem;
+}
+
+.welcome {
+    display: flex;
+    margin-bottom: 0;
+    font-size: larger;
+}
+
+.welcome h1{
+    display: inline-block;
+}
+
+.welcome p {
+    display: block;
+}
+
+.short{
+    text-align: center;
+}
+
+.short p{
+    margin-top: 0;
+    font-size: larger;
+}
+
+.description {
+    border: 1px black solid;
+    margin: 2%;
+    padding: 1%;
+}
