@@ -9,9 +9,9 @@ function Footer(){
         <div className="container">
             <h1>More about me</h1>
             <ul className="list-style">
-                <li><a href="https://github.com/kbjss071" target="_blank"><FaGithub style={style}/></a></li>
-                <li><a href="https://www.linkedin.com/in/jin-kang-072b3a127/" target="_blank"><FaLinkedin style={style}/></a></li>
-                <li><a href="https://stackoverflow.com/users/19080416/jin-kang" target="_blank"><FaStackOverflow style={style}/></a></li>
+                <li><a href="https://github.com/kbjss071" target="_blank" rel="noreferrer"><FaGithub style={style}/></a></li>
+                <li><a href="https://www.linkedin.com/in/jin-kang-072b3a127/" target="_blank" rel="noreferrer"><FaLinkedin style={style}/></a></li>
+                <li><a href="https://stackoverflow.com/users/19080416/jin-kang" target="_blank" rel="noreferrer"><FaStackOverflow style={style}/></a></li>
             </ul>
         </div>
     )

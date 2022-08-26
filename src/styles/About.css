@@ -10,7 +10,7 @@
 
 .welcome {
     display: flex;
-    margin-bottom: 0;
+    margin: 2% 0 1%;
     font-size: larger;
 }
 

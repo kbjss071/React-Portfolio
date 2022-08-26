@@ -7,3 +7,7 @@
 .container h1 {
     text-align: center;
 }
+
+.container ul {
+    margin-top: 3%;
+}
