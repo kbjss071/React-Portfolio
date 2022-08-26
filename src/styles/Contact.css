@@ -3,21 +3,50 @@
 }
 
 .contact-form {
-    /* display: block; */
+    display: block;
+    margin-bottom: 3%;
 }
 
 .contact-form form ul{
     list-style-type: none;
 }
 
-.btn {
-    
+.contactTitle {
+    text-align: center;
+    margin-top: 2%;
 }
+
+.formContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formContainer ul li {
+    margin: 3%;
+}
+
+.formContainer ul li label{
+    font-weight: 500;
+}
+
+.submit {
+    display: block;
+    padding: 0;
+}
+
+input {
+    width: 25vw;
+    margin-top: 2%;
+}
+
+textarea {
+    width: 25vw;
+    height: 5vh;
+}
+
 
 #contactMe {
-    display: block;
+    margin-bottom: 0%;
 }
 
-#contactForm {
-    display: block;
-}

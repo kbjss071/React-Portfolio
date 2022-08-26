@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import resume from "../assets/files/ResumeJin.pdf"
 import "../styles/Resume.css";
 import Skills from "./Skills"

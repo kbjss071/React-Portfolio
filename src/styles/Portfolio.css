@@ -33,3 +33,27 @@
     text-align: center;
     margin: 2% 0 4%;
 }
+
+@media screen and (max-width: 1200px) {
+    .portfolio {
+        margin: 2rem 0 8rem 0;
+        display: grid;
+        justify-content: space-evenly;
+        align-items: stretch;
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(auto, auto);
+        gap: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .portfolio {
+        margin: 2rem 0 8rem 0;
+        display: grid;
+        justify-content: space-evenly;
+        align-items: stretch;
+        grid-template-columns: repeat(1, auto);
+        grid-template-rows: repeat(auto, auto);
+        gap: 2.5rem;
+    }
+}
