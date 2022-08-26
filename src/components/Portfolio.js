@@ -16,7 +16,7 @@ function Portfolio() {
   return (
     <div>
       <div>
-        <h1 className='title'>Portfolio</h1>
+        <h1 className='portfolioTitle'>Portfolio</h1>
       </div>
       <div className="portfolio">
         <Card style={{ width: '24rem' }}>
