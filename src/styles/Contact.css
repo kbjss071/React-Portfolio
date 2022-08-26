@@ -1,0 +1,23 @@
+.contact-form {
+    display: flex;
+}
+
+.contact-form {
+    /* display: block; */
+}
+
+.contact-form form ul{
+    list-style-type: none;
+}
+
+.btn {
+    
+}
+
+#contactMe {
+    display: block;
+}
+
+#contactForm {
+    display: block;
+}

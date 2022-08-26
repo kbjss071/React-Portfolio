@@ -7,6 +7,7 @@ import React, { useState } from 'react';
 import Header from './components/Header';
 import Resume from './components/Resume'
 import Footer from './components/Footer'
+import "bootstrap/dist/css/bootstrap.min.css"
 
 function App() {
   const [currentTab, setCurrentTab] = useState("about");

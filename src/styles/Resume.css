@@ -1,0 +1,33 @@
+.resumeContainer {
+    display: block;
+}
+
+.resume {
+    text-align: center;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.resume h3 {
+    /* border: 1px solid black; */
+    padding: 2%;
+    font-size: 1.50rem;
+}
+
+.link {
+    color: rgb(33, 12, 228);
+    text-decoration: none;
+}
+
+.link:hover {
+    color: antiquewhite;
+}
+
+.link:active {
+    color: #000000;
+}
+
+.skill {
+    display: block;
+}
