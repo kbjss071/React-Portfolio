@@ -1,47 +1,7 @@
 import React, { useState, useRef } from "react";
 import "../styles/Contact.css"
-// import dotenv from "dotenv";
-// import validateEmail from "../utils/helper"
-// import emailjs from "@emailjs/browser";
-// dotenv.config();
 
 function Contact(){
-  
-  // ***To be worked in the near future***
-  // const emailRef = useRef();
-  // const [messageSent, setMessageSent] = useState(false);
-  // const [missingFields, setMissingFields] = useState(true);
-  // const [errorMessage, setErrorMessage] = useState("");
-
-  // const form = useRef();
-
-
-  // const handleFormSubmit = (e) => {
-  //   e.preventDefault();
-    
-    // if (form){
-    //   setMissingFields(false);
-    //   emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, form.current, process.env.REACT_APP_PUBLIC_KEY)
-    //     .then(res => {
-    //       console.log(res.text);
-    //       setMessageSent(true);
-    //       alert("Message Sent!")
-    //     })
-    //     .catch(err => {
-    //       console.log(err.text);
-    //     })
-    // } else {
-    //   alert("Please fill in the empty fields.")
-    // }
-
-    // setTimeout(() => {
-    //   setMessageSent(false);
-    //   setMissingFields(false);
-    //   setErrorMessage("");
-    // }, 2000);
-
-    
-  // };
 
   return (
         <div className="contact-form">
@@ -49,7 +9,7 @@ function Contact(){
             <h1 className="contactTitle">Contact me</h1>
           </div>
           <div id="contactForm">
-            <form className="formContainer"> {/* ref={form} onSubmit={handleFormSubmit} */}
+            <form className="formContainer" action="https://formsubmit.co/8f01d1f2f8580b3716c791b41fd7fb0d" method="POST"> 
               <ul>
                 <li>
                   <label>Name: </label>
@@ -64,7 +24,7 @@ function Contact(){
                   <textarea className="form-control" name="message" placeholder="Please add any message" required/>
                 </li>
                 <li>
-                  <input type="submit" value="Send" className="btn btn-primary" />
+                  <input type="submit" value="Send" className="btn btn-dark btn-block" />
                 </li>
               </ul>
             </form>
