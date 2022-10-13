@@ -9,7 +9,7 @@ function Skills() {
     return (
         <div>
             <h1 className="skill-title">Skills</h1>
-            <IconContext.Provider value={{color:"purple", size: "5rem"}}>
+            <IconContext.Provider value={{color:"gray", size: "5rem"}}>
             <div className="skills-container">
                     <FaHtml5 className="icon"/>
                     <FaCss3Alt className="icon"/>

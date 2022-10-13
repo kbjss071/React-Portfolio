@@ -14,6 +14,10 @@ h2 {
     margin: 0 0 6%;
 }
 
+.skills-container:hover .icon {
+    color: yellow;
+}
+
 .skills-container {
     margin: 2rem 0 8rem 0;
     display: grid;
