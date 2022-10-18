@@ -10,9 +10,6 @@ function Resume() {
                 <h2>Click to download my resume</h2>
                 <h3><a className="link" href={resume} target="_blank">Resume</a></h3>
             </div>
-            <div className="skill">
-                <Skills/>
-            </div>
         </div>
     )
 }
