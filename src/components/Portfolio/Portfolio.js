@@ -1,14 +1,14 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React from 'react';
-import weather from '../assets/images/WeatherDashboard.PNG'
-import dailyDose from '../assets/images/profile-page.png'
-import troogle from '../assets/images/Troogle_Index.png'
-import noteTaker from '../assets/images/Notetaker.PNG'
-import employeeTracker from '../assets/images/employeeTracker.PNG'
-import socialNetworkAPI from '../assets/images/socialNetworkAPI.PNG'
+import weather from '../../assets/images/WeatherDashboard.PNG'
+import dailyDose from '../../assets/images/profile-page.png'
+import troogle from '../../assets/images/Troogle_Index.png'
+import noteTaker from '../../assets/images/Notetaker.PNG'
+import employeeTracker from '../../assets/images/employeeTracker.PNG'
+import socialNetworkAPI from '../../assets/images/socialNetworkAPI.PNG'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import '../styles/Portfolio.css';
+import './Portfolio.css';
 
 
 function Portfolio() {

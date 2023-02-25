@@ -1,49 +1,45 @@
 import './App.css';
-import About from "./components/About"
-import Portfolio from "./components/Portfolio"
-import Skills from "./components/Skills"
-import Contact from "./components/Contact"
-import React, { useState } from 'react';
-import Header from './components/Header';
-import Resume from './components/Resume'
-import Footer from './components/Footer'
+import About from "./components/About/About"
+import Portfolio from "./components/Portfolio/Portfolio"
+import Contact from "./components/Contact/Contact"
+import React, { useEffect, useState } from 'react';
+import Resume from './components/Resume/Resume'
 import "bootstrap/dist/css/bootstrap.min.css"
+import Navbar from './components/Navbar'
+import ScrollToTop from './components/ScrollToTop';
+import Loader from './components/loader';
+import Home from "./components/Home/Home"
+import {BrowserRouter as Router, Route,Routes, } from "react-router-dom";
+import Footer from "./components/Footer"
 
 function App() {
-  const [currentTab, setCurrentTab] = useState("about");
+  const [load, updateLoad] = useState(true);
 
-  const renderTab = () => {
-    switch (currentTab) {
-      case "about":
-        return (
-          <div>
-            <About />
-            <Skills />
-          </div>
-        )
-      case "portfolio":
-        return <Portfolio/>
-      case "contact":
-        return <Contact />
-      case "resume":
-        return <Resume />
-      default:
-        return null;
-    }
-  }
+  useEffect(() => {
+    const timer = setTimeout(()=>{
+      updateLoad(false);
+    }, 1200);
+
+    return () => clearTimeout(timer)
+  })
+
 
   return (
-    <div>
-      <div>
-        <Header currentTab={currentTab} setCurrentTab={setCurrentTab} />
-      </div>
-      <div>
-        <main>{renderTab()}</main>
-      </div>
-      <div>
+    <Router>
+      <Loader load={load}/>
+      <div className="App" >
+        <Navbar />
+        <ScrollToTop />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/resume" element={< Resume/>} />
+        </Routes>
         <Footer />
       </div>
-    </div>
+    </Router>
   );
 }
 

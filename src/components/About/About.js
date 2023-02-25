@@ -1,7 +1,8 @@
 import React from 'react';
 // Here we import the Navbar.css file to grant access to some additional classNames
-import '../styles/About.css';
-import proPic from '../assets/images/Profile.jpg'
+import './About.css';
+import proPic from '../../assets/images/Profile.jpg'
+import Skill from "../Skills"
 
 function About() {
   return (
@@ -24,6 +25,7 @@ function About() {
           </p>
           <p>In my free time, I enjoy playing baseball, soccer, and video games. Also, I spend time with my family.</p>
         </div>
+      <Skill />
     </div>
   </div>
   );

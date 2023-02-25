@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-no-target-blank */
-import resume from "../assets/files/ResumeJin.pdf"
-import "../styles/Resume.css";
-import Skills from "./Skills"
+import resume from "../../assets/files/ResumeJin.pdf"
+import "./Resume.css";
+import Skills from "../Skills"
 
 function Resume() {
     return (
