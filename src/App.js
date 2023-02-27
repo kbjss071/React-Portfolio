@@ -27,11 +27,11 @@ function App() {
   return (
     <Router>
       <Loader load={load}/>
-      <div className="App" >
+      <div className="App" id={load ? "no-scroll": "scroll"}>
         <Navbar />
         <ScrollToTop />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/React-Portfolio" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/contact" element={<Contact />} />

@@ -1,10 +1,12 @@
 import React, { useState, useRef } from "react";
 import "./Contact.css"
+import Particle from "../Particle";
 
 function Contact(){
 
   return (
         <div className="contact-form">
+          <Particle />
           <div id="contactMe">
             <h1 className="contactTitle">Contact me</h1>
           </div>

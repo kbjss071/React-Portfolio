@@ -3,10 +3,12 @@ import React from 'react';
 import './About.css';
 import proPic from '../../assets/images/Profile.jpg'
 import Skill from "../Skills"
+import Particle from '../Particle';
 
 function About() {
   return (
     <div className="about">
+      <Particle />
       <div>
         <img src={proPic} className="profile" alt='ProfPic'/>
       </div>

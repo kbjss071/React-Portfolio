@@ -14,6 +14,7 @@ function NavBar(props) {
         <Navbar.Brand style={brandStyle}><Link to="/">JK</Link></Navbar.Brand>
         <Navbar.Collapse style={navbarStyle}>
           <Nav>
+              <Nav.Link className='mx-2' as={Link} to="React-Portfolio">Home</Nav.Link>
               <Nav.Link className='mx-2' as={Link} to="About">About</Nav.Link>
               <Nav.Link className='mx-2' as={Link} to="Portfolio">Portfolio</Nav.Link>
               <Nav.Link className='mx-2' as={Link} to="Contact">Contact</Nav.Link>

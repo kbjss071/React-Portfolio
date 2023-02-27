@@ -8,6 +8,7 @@ import employeeTracker from '../../assets/images/employeeTracker.PNG'
 import socialNetworkAPI from '../../assets/images/socialNetworkAPI.PNG'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import Particle from '../Particle';
 import './Portfolio.css';
 
 
@@ -15,6 +16,7 @@ function Portfolio() {
 
   return (
     <div>
+      <Particle />
       <div>
         <h1 className='portfolioTitle'>Portfolio</h1>
       </div>

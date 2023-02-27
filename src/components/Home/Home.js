@@ -1,10 +1,13 @@
-import React, { useState, useRef } from "react";
-import Skill from "../Skills"
+import React from "react";
+import {Container, Row, Col} from 'react-bootstrap'
+import Particle from "../Particle"
 
 function Home(){
     return (
         <div>
-            <Skill />
+            <Container fluid className="home-section" id="home">
+                <Particle />
+            </Container>
         </div>
     )
 }
