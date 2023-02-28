@@ -27,7 +27,7 @@ function About() {
           </p>
           <p>In my free time, I enjoy playing baseball, soccer, and video games. Also, I spend time with my family.</p>
         </div>
-      <Skill />
+      <Skill fluid/>
     </div>
   </div>
   );

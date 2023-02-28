@@ -12,6 +12,7 @@ h2 {
 .icon {
     font-size: "3rem";
     margin: 0 0 6%;
+    border-color: black;
 }
 
 .skills-container:hover .icon {
