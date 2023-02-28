@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.b89accdf.css",
-    "main.js": "/React-Portfolio/static/js/main.9c3a9380.js",
+    "main.css": "/React-Portfolio/static/css/main.2b40b858.css",
+    "main.js": "/React-Portfolio/static/js/main.e961ee88.js",
     "static/media/Troogle_Index.png": "/React-Portfolio/static/media/Troogle_Index.2214b3e60c65901a7e14.png",
     "static/media/profile-page.png": "/React-Portfolio/static/media/profile-page.e8f8cca600367c414075.png",
-    "static/media/ResumeJin.pdf": "/React-Portfolio/static/media/ResumeJin.271c4cee6e64bf3691f2.pdf",
+    "static/media/ResumeJin.pdf": "/React-Portfolio/static/media/ResumeJin.cdf0d10b332e8c5fe982.pdf",
     "static/media/WeatherDashboard.PNG": "/React-Portfolio/static/media/WeatherDashboard.7649c27422443dd63818.PNG",
     "static/media/employeeTracker.PNG": "/React-Portfolio/static/media/employeeTracker.01fde55d85ea0502a993.PNG",
     "static/media/socialNetworkAPI.PNG": "/React-Portfolio/static/media/socialNetworkAPI.6ffc8d22e5b89720f5b1.PNG",
     "static/media/Notetaker.PNG": "/React-Portfolio/static/media/Notetaker.eaeb098a9253345caea7.PNG",
     "static/media/Profile.jpg": "/React-Portfolio/static/media/Profile.a788c3f8efcffbc3cbf4.jpg",
     "index.html": "/React-Portfolio/index.html",
-    "main.b89accdf.css.map": "/React-Portfolio/static/css/main.b89accdf.css.map",
-    "main.9c3a9380.js.map": "/React-Portfolio/static/js/main.9c3a9380.js.map"
+    "main.2b40b858.css.map": "/React-Portfolio/static/css/main.2b40b858.css.map",
+    "main.e961ee88.js.map": "/React-Portfolio/static/js/main.e961ee88.js.map"
   },
   "entrypoints": [
-    "static/css/main.b89accdf.css",
-    "static/js/main.9c3a9380.js"
+    "static/css/main.2b40b858.css",
+    "static/js/main.e961ee88.js"
   ]
 }
