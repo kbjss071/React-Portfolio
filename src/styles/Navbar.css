@@ -10,4 +10,7 @@
   margin: 5px;
   line-height: 3;
 }
-  
+
+.container {
+  display: flex;
+}

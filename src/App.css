@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@300&family=League+Gothic&family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
 
 * {
+  box-sizing: border-box;
   justify-content: center;
   align-content: center;
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', 'Montserrat', sans-serif !important;
   background-color: skyblue;
 }
