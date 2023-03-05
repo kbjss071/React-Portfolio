@@ -1,16 +1,56 @@
 .navbar {
     background: #6a1b9a;
     height: 60px;
+    box-sizing: border-box !important;
   }
   
 .navbar a {
   color: white;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   text-decoration: none;
-  margin: 5px;
+  /* margin: 5px; */
   line-height: 3;
+  padding: 0px !important;
+  position: relative;
+  z-index: 1;
 }
 
+/* svg {
+  display: inline-block;
+} */
+
 .container {
+  width: 100% !important;
+}
+
+.col {
+  padding: 0px !important;
+}
+
+.right {
+  position: absolute;
+  right: 2rem;
+  /* float: right; */
+  /* justify-content: right; */
+}
+
+.nav-item {
+  display: inline-block;
+}
+
+.row {
   display: flex;
+}
+
+.navbar-nav .nav-link {
+  color: #fff!important;
+  padding: 0.5rem 1rem!important;
+}
+
+.nav-link {
+  padding: 1rem 1rem !important;
+}
+
+.nav-link > span {
+  margin-left: 0.4em;
 }

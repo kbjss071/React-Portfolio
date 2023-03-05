@@ -15,7 +15,7 @@ import './Portfolio.css';
 function Portfolio() {
 
   return (
-    <div>
+    <div className='main-port'>
       <Particle />
       <div>
         <h1 className='portfolioTitle'>Portfolio</h1>
