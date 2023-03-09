@@ -1,6 +1,6 @@
 .resumeContainer {
     display: block;
-    margin-top: 5em;
+    padding-top: 5em;
 }
 
 .resume {
@@ -44,8 +44,12 @@
 }
 
 .react-pdf__Page__canvas {
-    margin: 0 auto;
-    width: 95% !important;
-    height: 57% !important;
+    padding: 0;
+    width: 100% !important;
+    height: 100% !important;
     object-fit: cover;
+}
+
+.react-pdf__Page__annotations {
+    display: none;
 }

@@ -1,6 +1,6 @@
 .navbar {
     background: #6a1b9a;
-    height: 60px;
+    height: 60px !important;
     box-sizing: border-box !important;
   }
   
@@ -44,7 +44,7 @@
 
 .navbar-nav .nav-link {
   color: #fff!important;
-  padding: 0.5rem 1rem!important;
+  padding: 1rem 1rem!important;
 }
 
 .nav-link {
@@ -53,4 +53,9 @@
 
 .nav-link > span {
   margin-left: 0.4em;
+}
+
+.navbar-brand {
+  /* padding: 1rem 1rem; */
+  text-align: center;
 }

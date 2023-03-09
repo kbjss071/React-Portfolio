@@ -1,0 +1,13 @@
+.home-section {
+    display: flex;
+    background-color: black;
+    margin: 50em;
+    text-align: center;
+    padding-top: 10em;
+    padding-bottom: 20em;
+}
+
+.first {
+    text-align: center;
+    justify-content: center;
+}

@@ -1,6 +1,6 @@
 .about {
     display: flex;
-    margin-top: 5em;
+    padding-top: 5em;
 }
 
 .profile {
@@ -33,7 +33,7 @@
 }
 
 .description {
-    border: 1px black solid;
+    border: 1px #6a1b9a solid;
     margin: 2%;
     padding: 1%;
 }

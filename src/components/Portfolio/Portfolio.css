@@ -1,5 +1,5 @@
 .main-port {
-    margin-top: 4em;
+    padding-top: 5em;
 }
 
 .portfolio {
@@ -10,6 +10,7 @@
     grid-template-columns: repeat(3, auto);
     grid-template-rows: repeat(auto, auto);
     gap: 2.5rem;
+    color: black;
 }
 
 .anchor {

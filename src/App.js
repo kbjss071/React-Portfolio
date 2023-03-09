@@ -23,11 +23,16 @@ function App() {
     return () => clearTimeout(timer)
   })
 
+  const background = {
+    backgroundColor: "rgb(34, 34, 57)",
+    color: "white"
+  }
+
 
   return (
     <Router>
       <Loader load={load}/>
-      <div className="App" id={load ? "no-scroll": "scroll"}>
+      <div className="App" id={load ? "no-scroll": "scroll"} style={background}>
         <Navbar />
         <ScrollToTop />
         <Routes>

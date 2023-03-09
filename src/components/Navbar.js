@@ -12,7 +12,7 @@ function NavBar(props) {
       <Container fluid className='container'>
         <Row>
           <Col>
-            <Navbar.Brand style={brandStyle}><Link to="/">JK</Link></Navbar.Brand>
+            <Navbar.Brand style={brandStyle}><Link to="/React-Portfolio">JK</Link></Navbar.Brand>
             {/* <Navbar.Brand><Link to="/">JK</Link></Navbar.Brand> */}
           </Col>
           <Col className="">

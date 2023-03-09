@@ -1,6 +1,8 @@
 .contact-form {
     display: flex;
-    margin-top: 5em;
+    padding-top: 5em;
+    text-align: center;
+    padding-bottom: 22em;
 }
 
 .contact-form {
@@ -10,6 +12,7 @@
 
 .contact-form form ul{
     list-style-type: none;
+    width: 34rem;
 }
 
 .contactTitle {
@@ -21,14 +24,17 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    box-sizing: border-box;
 }
 
 .formContainer ul li {
     margin: 3%;
+    text-align: left;
 }
 
 .formContainer ul li label{
     font-weight: 500;
+    width: 100%;
 }
 
 .submit {
@@ -37,7 +43,7 @@
 }
 
 input {
-    width: 25vw;
+    width: 100%;
     margin-top: 2%;
 }
 
@@ -51,3 +57,24 @@ textarea {
     margin-bottom: 0%;
 }
 
+.tooltip {
+  position: relative;
+}
+
+/* .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  Position the tooltip
+  position: absolute;
+  z-index: 1;
+} */
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
