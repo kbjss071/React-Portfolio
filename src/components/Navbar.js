@@ -15,9 +15,6 @@ function NavBar(props) {
             <Navbar.Brand style={brandStyle}><Link to="/React-Portfolio">JK</Link></Navbar.Brand>
             {/* <Navbar.Brand><Link to="/">JK</Link></Navbar.Brand> */}
           </Col>
-          <Col className="">
-
-          </Col>
           <Col className='right'>
             <Navbar.Collapse className='collapse' id='responsive-navbar-nav'>
               <Nav className='ms-auto'>

@@ -1,13 +1,56 @@
 .home-section {
     display: flex;
     background-color: black;
-    margin: 50em;
-    text-align: center;
-    padding-top: 10em;
-    padding-bottom: 20em;
+    /* text-align: center; */
+    box-sizing: border-box !important;
+    padding-bottom: 30rem;
 }
 
 .first {
-    text-align: center;
+    display: block;
     justify-content: center;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.wave {
+  animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.5s;        /* Change to speed up or slow down */
+  animation-iteration-count: infinite;  /* Never stop waving :) */
+  transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+  display: inline-block;
+  font-size: 35px;
+}
+
+@keyframes wave-animation {
+    0% { transform: rotate( 0.0deg) }
+   10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+   20% { transform: rotate(-8.0deg) }
+   30% { transform: rotate(14.0deg) }
+   40% { transform: rotate(-4.0deg) }
+   50% { transform: rotate(10.0deg) }
+   60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+  100% { transform: rotate( 0.0deg) }
+}
+
+.container {
+    padding-bottom: 15rem;
+}
+
+#home {
+    display: block;
+}
+
+.dev-image {
+    object-fit: cover;
+}
+
+.image-container {
+    height: auto;
 }
