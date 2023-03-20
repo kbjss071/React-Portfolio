@@ -16,7 +16,11 @@ function NavBar(props) {
             {/* <Navbar.Brand><Link to="/">JK</Link></Navbar.Brand> */}
           </Col>
           <Col className='right'>
+            <button className='navbar-toggler' type='button' data-toggle='collapse' data-target="#coll">
+              <span className='navar-toggler-icon'></span>
+            </button>
             <Navbar.Collapse className='collapse' id='responsive-navbar-nav'>
+
               <Nav className='ms-auto'>
                 <Nav.Item>
                   <Nav.Link className='mx-2' as={Link} to="React-Portfolio"><AiOutlineHome /><span>Home</span></Nav.Link>

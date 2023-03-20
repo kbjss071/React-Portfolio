@@ -26,10 +26,15 @@ function Home(){
                                 />
                             <span className="wave" role="img" aria-labelledby="wave">
                             👋🏻</span> </div>
+                            <div>
+                                <h1>I'm Jin Kang</h1>
+                                <h2>Coding is sports for me</h2>
+                                <p></p>
+                            </div>
                         </Col>
-                        <Col className="right image-container">
+                        {/* <Col className="right image-container">
                             <img className="dev-image" src={dev} alt={alText}/>
-                        </Col>
+                        </Col> */}
 
                 </Row>
                 <Row className="second">
