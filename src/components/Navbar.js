@@ -1,12 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../styles/Navbar.css';
 import {Container, Row, Col, Nav, Navbar} from 'react-bootstrap/';
 import {Link} from 'react-router-dom'
 import {AiOutlineHome, AiOutlineUser, AiOutlineDesktop, AiOutlineComment, AiOutlineFileText} from "react-icons/ai"
+import {FaBars} from 'react-icons/fa'
 
 function NavBar(props) {
   const navbarStyle = {justifyContent: "right", display: "inline-block"}
   const brandStyle = {fontSize: "3rem", color:"white", display:"inline-block"}
+
+  const [isOpen, setIsOpen] = useState(false);
+
+
   return (
     <Navbar className='navbar-expand-lg fixed-top navbar-light'>
       <Container fluid className='container'>
@@ -16,9 +21,6 @@ function NavBar(props) {
             {/* <Navbar.Brand><Link to="/">JK</Link></Navbar.Brand> */}
           </Col>
           <Col className='right'>
-            <button className='navbar-toggler' type='button' data-toggle='collapse' data-target="#coll">
-              <span className='navar-toggler-icon'></span>
-            </button>
             <Navbar.Collapse className='collapse' id='responsive-navbar-nav'>
 
               <Nav className='ms-auto'>

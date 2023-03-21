@@ -3,7 +3,7 @@
     background-color: black;
     /* text-align: center; */
     box-sizing: border-box !important;
-    padding-bottom: 30rem;
+    padding-bottom: 15rem;
 }
 
 .first {
@@ -17,6 +17,25 @@
 
 .right {
     float: right;
+}
+
+.desc{
+    padding-bottom: 2rem;
+    border: 0px solid;
+    padding-top: 5rem;
+}
+
+p, h1, h2, h3 {
+    display: flex;
+}
+  
+  
+.sports-typewriter {
+    font-weight: bolder;
+}
+
+.image-container {
+    display: flex;
 }
 
 .wave {
