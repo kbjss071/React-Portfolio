@@ -36,7 +36,7 @@ function Contact(){
                 </li>
                 <li>
                   <label>Message: </label>
-                  <textarea className="form-control" name="message" placeholder="Please add any message" required/>
+                  <textarea className="form-control" name="message" placeholder="This message will be sent to my email" required/>
                 </li>
                 <li>
                   <input type="submit" value="Send" className="btn btn-primary btn-block" />

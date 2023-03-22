@@ -12,9 +12,9 @@ function Home(){
         <div className="home-section">
             <Container fluid id="home">
                 <Particle />
-                <Row className="space">
+                {/* <Row className="space">
                     <h1>This is to avoid the space of navbar</h1>
-                </Row>
+                </Row> */}
                 <Row className="first">
                         <Col className="left">
                             {/* <div className="welcome" style={{fontWeight: 'bold ', fontSize:'35px', color: 'white', display: 'flex'}}>
@@ -45,7 +45,7 @@ function Home(){
                                 </p>
                             </div>
                         </Col>
-                        <Col className="image-container">
+                        <Col aria-hidden="true" className="image-container">
                             <img className="dev-image" src={dev} alt={alText}/>
                         </Col>
 

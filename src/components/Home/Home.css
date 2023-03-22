@@ -73,3 +73,13 @@ p, h1, h2, h3 {
 .image-container {
     height: auto;
 }
+
+@media screen and (max-width: 640px)  {
+    .image-container {
+        display: none !important;
+    }
+
+    .dev-image{
+        display: none;
+    }
+}
