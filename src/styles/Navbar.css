@@ -80,3 +80,23 @@
   color: white;
   display: inline-block;
 }
+
+@media screen and (max-width: 991px) {
+  .navbar-collapse{
+    display: block;
+    z-index: 1;
+  }
+
+  .right {
+    display: flex;
+    justify-content: center;
+    right: auto;
+  }
+
+  .nav-link {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+}

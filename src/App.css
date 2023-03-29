@@ -10,3 +10,7 @@ body {
   font-family: 'Roboto', 'Montserrat', sans-serif !important;
   background-color: skyblue;
 }
+
+.container {
+  overflow: hidden;
+}
